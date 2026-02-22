@@ -5,6 +5,15 @@
     "Authorization": "${CRAVE_TOKEN}",
     "User-Agent": "Crave"
   },
-  "projects": [],
+  "projects": [
+    {
+      "name": "aosp",
+      "base_directory": "aosp",
+      "manifest_url": "https://android.googlesource.com/platform/manifest",
+      "branch": "android-14.0.0_r1",
+      "gapps": "full",
+      "custom_packages": ["Chrome", "GooglePlayStore", "YouTube"]
+    }
+  ],
   "server": "https://foss.crave.io/api"
 }
